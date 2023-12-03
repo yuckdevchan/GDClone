@@ -20,4 +20,6 @@ position = Vector2(722.5, -0.5)
 shape = SubResource("RectangleShape2D_bc8p4")
 
 [node name="Player" parent="." instance=ExtResource("2_qj02k")]
+light_mask = 3
+visibility_layer = 3
 position = Vector2(8, -74)
